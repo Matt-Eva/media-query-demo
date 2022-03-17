@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Nanum+Gothic&family=Patrick+Hand&family=Tajawal:wght@200&display=swap');
+
+/* Font Families: Caveat, Nanum Gothic, Indie Flower, Patrick Hand, Tajawal */
+
+body {
+    background-color: hsl(180, 90%, 80%)
+}
+
+h1 {
+    font-family: Caveat;
+    color: hsl(90, 50%, 50%);
+}
+
+h2 {
+    font-family: Indie Flower;
+    color: hsl(60, 90%, 40%)
+}
+
+h3 {
+    font-family: Patrick Hand;
+    color: hsl(30, 90%, 50%)
+}
+
+@media (min-width: 600px){
+    body {
+        background-color: hsl(130, 90%, 90%);
+        font-family: Nanum Gothic;
+    }
+
+    h1{
+        /* font-family: Nanum Gothic; */
+        color: hsl(180, 50%, 50%)
+    }
+
+    h2 {
+        /* font-family: Nanum Gothic; */
+        color: hsl(60, 40%, 20%)
+    }
+
+    h3 {
+        /* font-family: Nanum Gothic; */
+        color: hsl(120, 50%, 50%)
+    }
+}
