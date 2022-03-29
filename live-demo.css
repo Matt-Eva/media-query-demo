@@ -42,3 +42,15 @@ h3 {
         color: hsl(120, 50%, 50%)
     }
 }
+
+/* @media (orientation: landscape){
+    body {
+        background-color: hsl(20, 50%, 50%)
+    }
+} */
+
+/* @media (orientation: portrait){
+    body {
+        background-color: hsl(300, 50%, 50%)
+    }
+} */
