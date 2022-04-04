@@ -54,7 +54,7 @@ In the folder labelled "practice" you'll find two files - practice.html and prac
             </li>
         </ul>
     </li>
-    <li>When the screen width is greater than 600px, the following styles shoulde override the default styles
+    <li>When the screen width is greater than 600px, the following styles should be implemented
         <ul>
             <li>'main' div
                 <ul>
@@ -66,6 +66,36 @@ In the folder labelled "practice" you'll find two files - practice.html and prac
                     <li>Will be visible</li>
                     <li>Will occupy the right most column of its parent container</li>
                     <li>Will have a distinct background color of your choice using hsl, rgb, or hex</li>
+                </ul>
+            </li>
+            <li>'content' div
+                <ul>
+                    <li>Should occupy the left most column of its parent container</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>When the screen width is greater than 800px, the following styles should be implemented
+        <ul>
+            <li>'main' div
+                <ul>
+                    <li>Should have 3 columns - a 200px column on the left, a 200px column on the right, and a column in the middle that is 100% of the viewport width minus the width of the two other columns</li>
+                </ul>
+            </li>
+            <li>'sidebar' div
+                <ul>
+                    <li>should occupy the right most column of its parent container</li>
+                </ul>
+            </li>
+            <li> 'addbar' div
+                <ul>
+                    <li>should occupy the left most column of its parent container</li>
+                    <li>should have a distinct background color set using hsl, rgb, or hex</li>
+                </ul>
+            </li>
+            <li>'content' div
+                <ul>
+                    <li>should occupy the center column of its parent container</li>
                 </ul>
             </li>
         </ul>
