@@ -87,7 +87,7 @@ In the folder labelled "practice" you'll find two files - practice.html and prac
                     <li>should occupy the right most column of its parent container</li>
                 </ul>
             </li>
-            <li> 'addbar' div
+            <li> 'ad-bar' div
                 <ul>
                     <li>should occupy the left most column of its parent container</li>
                     <li>should have a distinct background color set using hsl, rgb, or hex</li>
