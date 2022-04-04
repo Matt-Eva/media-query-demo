@@ -6,7 +6,7 @@ For and clone this repo to consult the files as you read the README. Complete th
 
 ## Mini-assignment
 
-In the folder labelled "practice" you'll find two files - practice.html and practice.css. You will be working in practice.css. 
+In the folder labelled "practice" you'll find two files - practice.html and practice.css. You will be working in practice.css. This will also test your knowledge of CSS grid.
 
 #### Deliverables
 
