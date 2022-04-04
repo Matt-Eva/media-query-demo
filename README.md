@@ -102,4 +102,15 @@ In the folder labelled "practice" you'll find two files - practice.html and prac
     </li>
 </ol>
 
-   
+Your display should look similar to this at screen sizes below 600px;
+<img width="495" alt="Screen Shot 2022-04-04 at 4 30 22 PM" src="https://user-images.githubusercontent.com/89106805/161649288-7d848453-2788-45bd-9094-511d2536cc1e.png">
+
+Similar to this between screen sizes 600px and 800px;
+
+<img width="714" alt="Screen Shot 2022-04-04 at 4 32 13 PM" src="https://user-images.githubusercontent.com/89106805/161649339-2da18ba7-8e56-447c-9f81-805fa369830b.png">
+
+
+And similar to this for screens over 800px;
+
+<img width="820" alt="Screen Shot 2022-04-04 at 4 32 41 PM" src="https://user-images.githubusercontent.com/89106805/161649374-5134fb89-a785-458c-ac1b-2fb52625c8b6.png">
+
