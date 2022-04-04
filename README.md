@@ -10,7 +10,10 @@ In the folder labelled "practice" you'll find two files - practice.html and prac
 
 #### Deliverables
 
-1. Set the following default styles
+<ol>
+    <li>Set the following default styles</li>
+</ol>
+
     a. Body
        i. a margin of 0
        ii. a grid layout with a row for a header and a row for main display.
