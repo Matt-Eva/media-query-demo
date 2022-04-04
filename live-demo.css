@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Nanum+Gothic&family=Patrick+Hand&family=Tajawal:wght@200&display=swap');
 
 /* Font Families: Caveat, Nanum Gothic, Indie Flower, Patrick Hand, Tajawal */
+/* Order of specificity, from least specific to most: tag name, classname, id. */
+
+/* Common Pixel Breakpoint Sizes
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
 
 body {
     background-color: hsl(180, 90%, 80%)
@@ -21,13 +29,25 @@ h3 {
     color: hsl(30, 90%, 50%)
 }
 
-@media (min-width: 600px){
+/* @media screen and (min-width: 600px){
+
+} */
+
+/* @media print and (min-width: 600px){ 
+
+} */
+
+/* @media speech and (min-width: 600px){
+
+ } */
+
+@media (min-width: 700px){
     body {
         background-color: hsl(130, 90%, 90%);
         font-family: Nanum Gothic;
     }
 
-    h1{
+    h1 {
         /* font-family: Nanum Gothic; */
         color: hsl(180, 50%, 50%)
     }
@@ -43,13 +63,24 @@ h3 {
     }
 }
 
+@media (min-width: 800px){
+    body {
+        background-color: hsl(300, 50%, 80%)
+    }
+}
+
+
+
+
+
+
 /* @media (orientation: landscape){
     body {
         background-color: hsl(20, 50%, 50%)
     }
-} */
+}
 
-/* @media (orientation: portrait){
+@media (orientation: portrait){
     body {
         background-color: hsl(300, 50%, 50%)
     }
