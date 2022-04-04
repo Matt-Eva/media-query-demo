@@ -16,7 +16,7 @@ In the folder labelled "practice" you'll find two files - practice.html and prac
             <li>Body
                 <ul>
                     <li>a margin of 0</li>
-                    <li>a grid layout with a row for a header and a row for main display.</li>
+                    <li>a grid layout with a row for a header and a row for a main display.</li>
                 </ul>
             </li>
             <li>The div with the id 'header'
