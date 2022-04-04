@@ -39,15 +39,19 @@ In the folder labelled "practice" you'll find two files - practice.html and prac
             </li>
             <li> The div with id 'sidebar'
                 <ul>
-                    <li>Will not be visible</li>
+                    <li>will not be visible</li>
                     <li>It will occupy the right-hand column of its parent container</li>
                     <li>It will have a background color of your choice (different from "header") using hsl, rgb, or hex</li>
                 </ul>
             </li>
             <li>The div with the id 'content'
                 <ul>
-                    <li>Will not be visilbe</li>
-                    <li>It will occupy the left-hand column of its parent container</li>
+                    <li>It will occupy the single column of its parent container</li>
+                </ul>
+            </li>
+            <li>The div with the id 'ad-bar'
+                <ul>
+                    <li>will not be visible</li>
                 </ul>
             </li>
         </ul>
