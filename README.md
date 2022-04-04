@@ -34,7 +34,20 @@ In the folder labelled "practice" you'll find two files - practice.html and prac
             <li>The div with the id 'main'
                 <ul>
                     <li>It will occupy the second row of its parent container's grid</li>
-                    <li>It will have a grid layout with two columns - one for a sidebar, one for a content display.</li>
+                    <li>It will have a grid layout with one column that spans the width of the screen.</li>
+                </ul>
+            </li>
+            <li> The div with id 'sidebar'
+                <ul>
+                    <li>Will not be visible</li>
+                    <li>It will occupy the right-hand column of its parent container</li>
+                    <li>It will have a background color of your choice (different from "header") using hsl, rgb, or hex</li>
+                </ul>
+            </li>
+            <li>The div with the id 'content'
+                <ul>
+                    <li>Will not be visilbe</li>
+                    <li>It will occupy the left-hand column of its parent container</li>
                 </ul>
             </li>
         </ul>
