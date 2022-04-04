@@ -6,7 +6,7 @@ Fork and clone this repo to consult the files as you read the README. Complete t
 
 ## Mini-assignment
 
-In the folder labelled "practice" you'll find two files - practice.html and practice.css. You will be working in practice.css. This will also test your knowledge of CSS grid as well as general CSS (you might have to do some googling).
+In the folder labelled "practice" you'll find two files - practice.html and practice.css. You will be working in practice.css. This will test your knowledge of Media Queries, CSS grid, and general CSS (you might have to do some googling).
 
 #### Deliverables
 
