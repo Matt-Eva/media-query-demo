@@ -19,13 +19,17 @@ In the folder labelled "practice" you'll find two files - practice.html and prac
                     <li>a grid layout with a row for a header and a row for main display.</li>
                 </ul>
             </li>
+            <li>The div with the id 'header'
+                <ul>
+                    <li>It will occupy the first row of its parent container's grid.</li>
+                    <li>You will give a background color of your choise using hsl, rgb, or hex colors.</li>
+                    <li>All items in this div should be centered vertically (hint: what else will this div need to make that happen?)</li>
+                </ul>
+            </li>
         </ul>
     </li>
 </ol>
 
-    a. Body
-       i. a margin of 0
-       ii. a grid layout with a row for a header and a row for main display.
    b. The div with the id 'header'
        i. It will occupy the first row of its parent container's grid.
        iii. You will give it a background color using hsl, rgb, or hex colors.
