@@ -40,8 +40,6 @@ In the folder labelled "practice" you'll find two files - practice.html and prac
             <li> The div with id 'sidebar'
                 <ul>
                     <li>will not be visible</li>
-                    <li>it will occupy the right-hand column of its parent container</li>
-                    <li>it will have a background color of your choice (different from "header") using hsl, rgb, or hex</li>
                 </ul>
             </li>
             <li>The div with the id 'content'
