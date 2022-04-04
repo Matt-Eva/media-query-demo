@@ -2,7 +2,7 @@
 
 This app demonstrates how to use media queries in CSS files. 
 
-For and clone this repo to consult the files as you read the README. Complete the mini-assignment at the end of the README using the files in the "practice" folder.
+Fork and clone this repo to consult the files as you read the README. Complete the mini-assignment at the end of the README using the files in the "practice" folder.
 
 ## Mini-assignment
 
