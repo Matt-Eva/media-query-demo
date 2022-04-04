@@ -39,7 +39,7 @@ In the folder labelled "practice" you'll find two files - practice.html and prac
             </li>
             <li> The div with id 'sidebar'
                 <ul>
-                    <li>will not be visible</li>
+                    <li>will not be visible (hint: how do you make sure that an element is not displayed?)</li>
                 </ul>
             </li>
             <li>The div with the id 'content'
