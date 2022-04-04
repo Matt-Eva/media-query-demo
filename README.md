@@ -26,15 +26,19 @@ In the folder labelled "practice" you'll find two files - practice.html and prac
                     <li>All items in this div should be centered vertically (hint: what else will this div need to make that happen?)</li>
                 </ul>
             </li>
+            <li>The h1 element that is a child of 'header'
+                <ul>
+                    <li>Should be centered horizontally in its parent container.</li>
+                </ul>
+            </li>
+            <li>The div with the id 'main'
+                <ul>
+                    <li>It will occupy the second row of its parent container's grid</li>
+                    <li>It will have a grid layout with two columns - one for a sidebar, one for a content display.</li>
+                </ul>
+            </li>
         </ul>
     </li>
 </ol>
 
-   b. The div with the id 'header'
-       i. It will occupy the first row of its parent container's grid.
-       iii. You will give it a background color using hsl, rgb, or hex colors.
-   c. The div with the id 'main'
-      i. It will occupy the second row of its parent container's grid.
-      ii. It will have a grid layout with two columns - one for a sidebar, one for a content display.
-      iii. 
    
