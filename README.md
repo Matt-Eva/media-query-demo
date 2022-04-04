@@ -58,7 +58,7 @@ In the folder labelled "practice" you'll find two files - practice.html and prac
         <ul>
             <li>'main' div
                 <ul>
-                       <li>will have two columns - one on the right hand side that is 200px, one on the lefthand side that is 100% of the viewport width minus 200px (hint: you may need <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/calc">this</a></li>
+                       <li>will have two columns - one on the right hand side that is 200px, one on the lefthand side that is 100% of the viewport width minus 200px (hint: you may need <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/calc">this</a>)</li>
                 </ul>
             </li>
             <li>'sidebar' div
