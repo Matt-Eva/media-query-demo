@@ -40,8 +40,8 @@ In the folder labelled "practice" you'll find two files - practice.html and prac
             <li> The div with id 'sidebar'
                 <ul>
                     <li>will not be visible</li>
-                    <li>It will occupy the right-hand column of its parent container</li>
-                    <li>It will have a background color of your choice (different from "header") using hsl, rgb, or hex</li>
+                    <li>it will occupy the right-hand column of its parent container</li>
+                    <li>it will have a background color of your choice (different from "header") using hsl, rgb, or hex</li>
                 </ul>
             </li>
             <li>The div with the id 'content'
@@ -52,6 +52,22 @@ In the folder labelled "practice" you'll find two files - practice.html and prac
             <li>The div with the id 'ad-bar'
                 <ul>
                     <li>will not be visible</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>When the screen width is greater than 600px, the following styles shoulde override the default styles
+        <ul>
+            <li>'main' div
+                <ul>
+                       <li>will have two columns - one on the right hand side that is 200px, one on the lefthand side that is 100% of the viewport width minus 200px (hint: you may need <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/calc">this</a></li>
+                </ul>
+            </li>
+            <li>'sidebar' div
+                <ul>
+                    <li>Will be visible</li>
+                    <li>Will occupy the right most column of its parent container</li>
+                    <li>Will have a distinct background color of your choice using hsl, rgb, or hex</li>
                 </ul>
             </li>
         </ul>
