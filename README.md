@@ -1,8 +1,14 @@
-# media-query-demo
+# Media Queries
 
 This app demonstrates how to use media queries in CSS files. 
 
 Fork and clone this repo to consult the files as you read the README. Complete the mini-assignment at the end of the README using the files in the "practice" folder.
+
+## About Media Queries
+
+Media queries are an essential tool for building responsive websites, especially "Mobile First" websites. Including media queries in your CSS allows you to change the layout of your webpage based upon the screen size of the device on which its being viewed. For example, we'll probably want a different layout for mobile phone users than desktop users.
+
+Media queries are included in your CSS file starting with the `@media` tag.
 
 ## Mini-assignment
 
