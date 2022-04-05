@@ -2,7 +2,7 @@
 
 This app demonstrates how to use media queries in CSS files. 
 
-Fork and clone this repo to consult the files as you read the README. Complete the mini-assignment at the end of the README using the files in the "practice" folder.
+Fork and clone this repo to consult the files as you read the README. I'll be referring to `live-demo.html` and `live-demo.css` throughout the README. Open `live-demo.html` in your browser and consult it and `live-demo.css` while reading through the README. Complete the mini-assignment at the end of the README using the files in the "practice" folder. `index.html` and `index.css` serve as a slightly more advanced example of media queries.
 
 ## About Media Queries
 
