@@ -12,11 +12,11 @@ Media queries are included in your CSS file starting with the `@media` tag. You 
 
 After selecting your screen type, you'll specifiy a condition that must be met in order for the styles you've defined within your media query to apply to your webpage. Oftentimes, this condition relates to screen width - we want to rearrange our layout depending on how wide the screen is. A query for a minimum screen-width of `500px` would look something like this `@media (min-width: 500px) {}` (styling attributes would go within the curly braces). Let's imagine that we have an h1 tag with an id of "header" whose font color we want to change to yellow when the screen width exceeds 500px. We would write the following in our CSS file:
 
-`@media (min-width: 500px){` </br>
-`    #header {`</br>
-`        color: hsl(60, 90%, 60%);`</br>
-`    }`</br>
-`}`</br>
+```@media (min-width: 500px){
+    #header {
+        color: hsl(60, 90%, 60%);
+    }
+}```
 
 ## Mini-assignment
 
