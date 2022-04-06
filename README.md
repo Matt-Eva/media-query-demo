@@ -6,6 +6,7 @@ Fork and clone this repo to consult the files as you read the README. I'll be re
 
 ## About Media Queries
 
+### General Overview
 Media queries are an essential tool for building responsive websites, especially "Mobile First" websites. Including media queries in your CSS allows you to change the layout of your webpage based upon the screen size of the device on which its being viewed. For example, we'll probably want a different layout for mobile phone users than desktop users.
 
 Media queries are included in your CSS file starting with the `@media` tag. You will then specify the type of media you want to query - `screen`, `print`, or `speech`. `screen` refers to devices with screens - mobiles, laptops, desktops, etc. `print` refers to print previews and print devices. `speech` refers to text-to-speech devices. So if you wanted to target screens, you would write `@media screen`. To select all device types, you can write `@media all` or simply `@media`.
@@ -19,6 +20,10 @@ After selecting your screen type, you'll specifiy a condition that must be met i
     }
 }
 ```
+
+### Order and Specificity
+
+The rules of order and specificity still apply when 
 
 ## Mini-assignment
 
@@ -130,4 +135,8 @@ Similar to this between screen sizes 600px and 800px;
 And similar to this for screens over 800px;
 
 <img width="820" alt="Screen Shot 2022-04-04 at 4 32 41 PM" src="https://user-images.githubusercontent.com/89106805/161649374-5134fb89-a785-458c-ac1b-2fb52625c8b6.png">
+
+## Resources
+
+If you want to learn more about Media Queries, I would highly recommend consulting <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries">MDN Docs</a>.
 
