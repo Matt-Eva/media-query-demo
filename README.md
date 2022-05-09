@@ -9,7 +9,24 @@ Fork and clone this repo to consult the files as you read the README. I'll be re
 ### General Overview
 Media queries are an essential tool for building responsive websites, especially "Mobile First" websites. Including media queries in your CSS allows you to change the layout of your webpage based upon the screen size of the device on which its being viewed. For example, we'll probably want a different layout for mobile phone users than desktop users.
 
-Media queries are included in your CSS file starting with the `@media` tag. You will then specify the type of media you want to query - `screen`, `print`, or `speech`. `screen` refers to devices with screens - mobiles, laptops, desktops, etc. `print` refers to print previews and print devices. `speech` refers to text-to-speech devices. So if you wanted to target screens, you would write `@media screen`. To select all device types, you can write `@media all` or simply `@media`.
+Media queries are included in your CSS file starting with the `@media` tag. You will then specify the type of media you want to query - `screen`, `print`, or `speech`. 
+```
+@media screen {
+
+}
+```
+
+`screen` refers to devices with screens - mobiles, laptops, desktops, etc. `print` refers to print previews and print devices. `speech` refers to text-to-speech devices. So if you wanted to target screens, you would write `@media screen`. To select all device types, you can write `@media all` or simply `@media`.
+
+```
+@media all {
+
+}
+or
+@media {
+
+}
+```
 
 After selecting your screen type, you'll specifiy a condition that must be met in order for the styles you've defined within your media query to apply to your webpage. Oftentimes, this condition relates to screen width - we want to rearrange our layout depending on how wide the screen is. A query for a minimum screen-width of `500px` would look something like this `@media (min-width: 500px) {}` (styling attributes would go within the curly braces). Let's imagine that we have an h1 tag with an id of "header" whose font color we want to change to yellow when the screen width exceeds 500px. We would write the following in our CSS file:
 
