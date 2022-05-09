@@ -38,9 +38,107 @@ After selecting your screen type, you'll specifiy a condition that must be met i
 }
 ```
 
+#### True or False values
+
+While CSS is often thought of as a "styling language" more than a "programming language", media queries actually do perform a programmatic operation - they check and see if a condition evaluates to true or false. The styles inside of the query will only apply if the specified conditions are met (i.e. screen type a condition like `min-width: 500px`).
+
 ### Order and Specificity
 
-The rules of order and specificity still apply when 
+The rules of order and specificity still apply when writing media queries. If you write default styles outside of your media query that you want to override inside your media query, you'll have to use the same level of specificity or greater to change the styles:
+
+```
+#some-id {
+    color: blue;
+}
+
+@media (min-width: 600px){
+    #some-id {
+        color: red;
+    }
+}
+```
+
+Similarly, you'll want to make sure you write the order of your media queries correctly. Let's imagine, for example, you want to have two separate media queries, one that fires when a screen exceeds `500px` and one that fires when a screen exceeds `800px`. Because CSS is read from top to bottom by a computer, you'd want to write your media queries in this order:
+
+```
+@media (min-width: 500px){
+    h1 {
+        color: green;
+    }
+}
+
+@media(min-width: 800px){
+    h1 {
+        color: purple;
+    }  
+}
+```
+
+Why? Well, the styles inside of media queries are applied when the conditions specified in the media query are met. In this instance, a width that exceeds `800px` would also exceed `500px`. So, the styles inside of our first media query are _still applying_. They're simply being overridden by the styles inside of our second media query. However, if we switch the order of the media queries
+
+```
+@media(min-width: 800px){
+    h1 {
+        color: purple;
+    }  
+}
+
+@media (min-width: 500px){
+    h1 {
+        color: green;
+    }
+}
+```
+we'd run into a problem. We want our styles inside of our `800px` media query to override the styles in our `500px` media query, but that won't happen in this example, since our `500px` media query is written _after_ our `800px` media query. Its conditions will still evaluate to true, and since it was read most recently by the computer, its styles are the styles that will apply.
+
+This rule also holds true for setting base styles (styles that are written outside of any media query). We'll want to always write those styles first, otherwise we'd have the same problem:
+
+```
+@media (min-width: 500px){
+    h1 {
+        color: green;
+    }
+}
+
+@media(min-width: 800px){
+    h1 {
+        color: purple;
+    }  
+}
+
+h1 {
+    color: red;
+}
+
+```
+
+Because our base `h1` styles are being written further down in our file than our media queries, the computer will interpret those isntructions as the final instructions, and our media query styles won't apply.
+
+## Mobile First Design
+
+Media queries are essential for what's known as 'Mobile-First' design. This can sound like a big fancy 'tech' term, but it's really pretty simple: you want your basic webpage layout to be geared toward mobile users. Around 50% of all web traffic now occurs over mobile devices, and it's projected that that number will only continue increasing. For this reason, we want to make sure that our webpages are easily viewable and navigable on mobile devices.
+
+How do media queries play a roll? Well, we'll want to set our base styles (the styles we write outside of media queries) for smaller screens. Then, we'll use media queries to check and see if screens are larger than a minimum width. If they are, we'll apply some modified styling adjustments that reformat our webpage layout. This approach would looks something like this:
+
+```
+h1 {
+    color: yellow;
+}
+
+@media (min-width: 500px) {
+    h1 {
+        color: orange;
+    }
+}
+
+@media (min-width: 900px){
+    h1 {
+        color: red;
+    }
+}
+```
+
+In this scenario, we want `h1`s to have a yellow font color on small screens, an orange font color on medium screens, and a red fonto color on larger screens. We set the base styles to the styles that we want to apply to our small screens, then use media queries to modify those styles for larger screens. This is a basic example, but you'll likely want to do this for things like webpage layouts, which are going to matter more for varying screen sizes.
 
 ## Mini-assignment
 
