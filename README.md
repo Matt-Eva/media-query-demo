@@ -167,7 +167,7 @@ In the folder labelled "practice" you'll find two files - practice.html and prac
                 <ul>
                     <li>It will occupy the first row of its parent container's grid.</li>
                     <li>You will give a background color of your choise using hsl, rgb, or hex colors.</li>
-                    <li>All items in this div should be centered vertically (hint: what else will this div need to make that happen?)</li>
+                    <li>All items in this div should be centered vertically (hint: what else will this div need to <a href="https://github.com/richwblake/CSS_Grid_And_Flexbox_Demo">make that happen?</a>)</li>
                 </ul>
             </li>
             <li>The h1 element that is a child of 'header'
