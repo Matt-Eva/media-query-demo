@@ -155,7 +155,7 @@ In the folder labelled "practice" you'll find two files - practice.html and prac
 #### Deliverables
 
 <ol>
-    <li>Set the following default styles:
+    <li>Set the following base styles:
         <ul>
             <li>Body
                 <ul>
