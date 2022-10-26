@@ -120,7 +120,7 @@ h1 {
 
 ```
 
-Because our base `h1` styles are being written further down in our file than our media queries, the computer will interpret those isntructions as the final instructions, and our media query styles won't apply.
+Because our base `h1` styles are being written further down in our file than our media queries, the computer will interpret those instructions as the final instructions, and our media query styles won't apply.
 
 ## Mobile First Design
 
