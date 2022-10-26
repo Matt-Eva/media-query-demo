@@ -48,7 +48,7 @@ or
 
 #### True or False values
 
-While CSS is often thought of as a "styling language" more than a "programming language", media queries actually do perform a programmatic operation - they check and see if a condition evaluates to true or false. The styles inside of the query will only apply if the specified conditions are met (i.e. screen type a condition like `min-width: 500px`).
+While CSS is often thought of as a "styling language" more than a "programming language", media queries actually do perform a programmatic operation - they check and see if a condition evaluates to true or false. The styles inside of the query will only apply if the specified conditions are met (i.e. a condition like `min-width: 500px`).
 
 ### Order and Specificity
 
