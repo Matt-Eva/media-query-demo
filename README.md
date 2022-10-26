@@ -146,7 +146,7 @@ h1 {
 }
 ```
 
-In this scenario, we want `h1`s to have a yellow font color on small screens, an orange font color on medium screens, and a red fonto color on larger screens. We set the base styles to the styles that we want to apply to our small screens, then use media queries to modify those styles for larger screens. This is a basic example, but you'll likely want to do this for things like webpage layouts, which are going to matter more for varying screen sizes.
+In this scenario, we want `h1`s to have a yellow font color on small screens, an orange font color on medium screens, and a red font color on larger screens. We set the base styles to the styles that we want to apply to our small screens, then use media queries to modify those styles for larger screens. This is a basic example, but you'll likely want to do this for things like webpage layouts, which are going to matter more for varying screen sizes.
 
 ## Mini-assignment
 
